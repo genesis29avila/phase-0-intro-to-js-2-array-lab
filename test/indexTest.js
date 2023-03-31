@@ -9,9 +9,9 @@ describe('index.js', function () {
 
   describe('Array functions', function () {
     beforeEach(function () {
-      cats.length = 0;
+      Milo.length = 0;
 
-      cats.push('Milo', 'Otis', 'Garfield');
+      Milo.push('Milo', 'Otis', 'Garfield');
     });
 
     describe('destructivelyAppendCat(name)', function () {
